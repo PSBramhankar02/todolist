@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f9;
+}
+
+.container {
+  width: 80%;
+  max-width: 600px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#taskName, #taskDate, #taskTime, .container button {
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+}
+
+.container button {
+  cursor: pointer;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.tabs button:hover {
+  background-color: #45a049;
+}
+
+#taskTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+#taskTable, #taskTable th, #taskTable td {
+  border: 1px solid #ddd;
+}
+
+#taskTable th, #taskTable td {
+  padding: 8px;
+  text-align: left;
+}
+
+#taskTable th {
+  background-color: #f4f4f4;
+}
+
+button.delete {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+button.edit {
+  background-color: #2196F3;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+button.clear {
+  background-color: #ff9800;
+  width: 100%;
+}
+
+button.clear:hover {
+  background-color: #e68900;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.missing {
+  color: red;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.icon.delete {
+  background-color: #f44336;
+}
+
+.icon.edit {
+  background-color: #2196F3;
+}
+
+button.delete:hover, button.edit:hover {
+  background-color: #e68900;
+}

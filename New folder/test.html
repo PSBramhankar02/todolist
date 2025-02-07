@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Label Above Input</title>
+    <style>
+        /* Ensures label and input are displayed vertically */
+        .form-container {
+            margin-bottom: 10px; /* Add spacing between fields */
+        }
+
+        label {
+            display: block; /* Ensures the label is displayed on its own line */
+            margin-bottom: 5px; /* Adds space between label and input */
+        }
+
+        input {
+            display: block; /* Ensures the input is on a new line */
+            width: 100%; /* Optional, to make the input take full width */
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div class="form-container">
+            <label for="input-field">Your Label:</label>
+            <input type="text" id="input-field" name="input-field">
+        </div>
+    </form>
+</body>
+</html>
